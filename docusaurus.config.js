@@ -87,14 +87,10 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-           
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+  style: 'dark',
+  links: [],
+  copyright: `© ${new Date().getFullYear()} Tiến Thành. Built with Docusaurus.`,
+},
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

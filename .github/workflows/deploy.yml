@@ -36,4 +36,5 @@ jobs:
           GIT_USER: tienthanh23072007-stack
           CURRENT_BRANCH: main
           NODE_OPTIONS: --max-old-space-size=8192
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

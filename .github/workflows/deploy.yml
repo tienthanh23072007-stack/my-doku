@@ -28,10 +28,9 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          GIT_USER=tienthanh23072007-stack \
-          CURRENT_BRANCH=main \
-          npx docusaurus deploy
+        run: npm run deploy
+        env:
+          GIT_USER: tienthanh23072007-stack
+          CURRENT_BRANCH: main
+          NODE_OPTIONS: --max-old-space-size=8192
 

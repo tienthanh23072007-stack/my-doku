@@ -16,8 +16,9 @@ const config = {
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  v4: true,
+  experimental_faster: true,
+},
 
   // Set the production url of your site here
   url: 'https://tienthanh23072007-stack.github.io',
@@ -35,6 +36,7 @@ const config = {
     locales: ['en'],
   },
 
+  
   presets: [
     [ 'classic',
       ({

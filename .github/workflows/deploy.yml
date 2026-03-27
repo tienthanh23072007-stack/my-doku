@@ -28,9 +28,12 @@ jobs:
       - name: Build website
         run: npm run build
 
+      
       - name: Deploy
         env:
           GIT_USER: tienthanh23072007-stack
           USE_SSH: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BABEL_ENV: production
         run: npx docusaurus deploy
+

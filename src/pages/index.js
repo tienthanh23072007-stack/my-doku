@@ -18,8 +18,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--lg cyber-btn"
             to="/docs/intro">
+              <FaShieldAlt style={{ marginRight: "8px" }} />
             Check in my blog 🔐
           </Link>
         </div>

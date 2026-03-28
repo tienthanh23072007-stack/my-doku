@@ -28,3 +28,21 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.cyber-btn {
+  background-color: #0f172a;
+  color: #22c55e;
+  border: 1px solid #22c55e;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.cyber-btn:hover {
+  background-color: #22c55e;
+  color: #0f172a;
+  box-shadow: 0 0 10px #22c55e;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <clipPath id="c1"><circle cx="200" cy="200" r="182"/></clipPath>
+  </defs>
+
+  <!-- Sky background -->
+  <circle cx="200" cy="200" r="182" fill="#12103A"/>
+
+  <!-- Stars -->
+  <g fill="white">
+    <circle cx="75"  cy="68"  r="1.5" opacity="0.9"/>
+    <circle cx="128" cy="48"  r="1"   opacity="0.7"/>
+    <circle cx="200" cy="38"  r="2"   opacity="0.9"/>
+    <circle cx="268" cy="54"  r="1.5" opacity="0.8"/>
+    <circle cx="325" cy="72"  r="1"   opacity="0.7"/>
+    <circle cx="68"  cy="112" r="1"   opacity="0.8"/>
+    <circle cx="345" cy="98"  r="1.5" opacity="0.6"/>
+    <circle cx="358" cy="145" r="1"   opacity="0.8"/>
+    <circle cx="52"  cy="158" r="1.5" opacity="0.7"/>
+    <circle cx="158" cy="84"  r="1"   opacity="0.8"/>
+    <circle cx="342" cy="178" r="1.2" opacity="0.7"/>
+    <circle cx="95"  cy="198" r="1"   opacity="0.6"/>
+    <circle cx="112" cy="138" r="1.2" opacity="0.6"/>
+    <circle cx="292" cy="128" r="1"   opacity="0.7"/>
+    <circle cx="232" cy="98"  r="1.5" opacity="0.8"/>
+    <circle cx="372" cy="202" r="1"   opacity="0.5"/>
+    <circle cx="48"  cy="230" r="1"   opacity="0.5"/>
+    <circle cx="178" cy="125" r="1"   opacity="0.6"/>
+    <circle cx="148" cy="168" r="0.8" opacity="0.5"/>
+    <circle cx="355" cy="228" r="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- Moon (crescent) -->
+  <circle cx="308" cy="78" r="24" fill="#E9ECF5" opacity="0.95"/>
+  <circle cx="318" cy="72" r="20" fill="#12103A"/>
+
+  <!-- Mountains back -->
+  <polygon points="18,345 105,178 185,298 18,345"  fill="#1E1A56"/>
+  <polygon points="75,345 172,158 262,295 75,345"  fill="#242068"/>
+  <polygon points="175,345 258,182 342,295 175,345" fill="#1C1852"/>
+  <polygon points="238,345 322,198 400,310 400,345 238,345" fill="#1E1A56"/>
+
+  <!-- Snow caps -->
+  <polygon points="105,178  97,200  113,200" fill="white" opacity="0.45"/>
+  <polygon points="172,158 164,182  180,182" fill="white" opacity="0.5"/>
+  <polygon points="258,182 250,205  266,205" fill="white" opacity="0.45"/>
+  <polygon points="322,198 315,218  329,218" fill="white" opacity="0.38"/>
+
+  <!-- Ground -->
+  <rect x="18" y="308" width="364" height="92" fill="#0C0A28" clip-path="url(#c1)"/>
+  <ellipse cx="200" cy="315" rx="155" ry="14" fill="#141038"/>
+
+  <!-- Plants/bushes -->
+  <ellipse cx="105" cy="315" rx="18" ry="10" fill="#1a2e4a"/>
+  <ellipse cx="92"  cy="310" rx="12" ry="8"  fill="#1e3554"/>
+  <ellipse cx="295" cy="316" rx="16" ry="9"  fill="#1a2e4a"/>
+  <ellipse cx="308" cy="311" rx="11" ry="7"  fill="#1e3554"/>
+
+  <!-- Laptop screen -->
+  <rect x="143" y="248" width="114" height="68" rx="6" fill="#1F2937"/>
+  <rect x="148" y="253" width="104" height="56" rx="3" fill="#060D1A"/>
+  <!-- Terminal prompt lines -->
+  <text x="153" y="265" font-size="6" font-family="monospace" fill="#10B981">$ nmap -sV 192.168.1.0/24</text>
+  <text x="153" y="275" font-size="5.5" font-family="monospace" fill="#34D399">Starting Nmap 7.94...</text>
+  <text x="153" y="284" font-size="5.5" font-family="monospace" fill="#6EE7B7">22/tcp  open  ssh</text>
+  <text x="153" y="292" font-size="5.5" font-family="monospace" fill="#6EE7B7">80/tcp  open  http</text>
+  <text x="153" y="300" font-size="5.5" font-family="monospace" fill="#6EE7B7">443/tcp open  https</text>
+  <!-- cursor -->
+  <rect x="153" y="303" width="5" height="5" rx="0.5" fill="#10B981" opacity="0.85"/>
+
+  <!-- Laptop base / hinge -->
+  <line x1="143" y1="316" x2="257" y2="316" stroke="#374151" stroke-width="0.8"/>
+  <rect x="135" y="316" width="130" height="7" rx="3" fill="#374151"/>
+  <rect x="155" y="320" width="90" height="2" rx="1" fill="#4B5563"/>
+
+  <!-- Character legs -->
+  <rect x="189" y="308" width="9"  height="16" rx="4" fill="#3B3585"/>
+  <rect x="202" y="308" width="9"  height="16" rx="4" fill="#3B3585"/>
+  <!-- Shoes -->
+  <rect x="186" y="320" width="13" height="5"  rx="2.5" fill="#1F1B45"/>
+  <rect x="201" y="320" width="13" height="5"  rx="2.5" fill="#1F1B45"/>
+
+  <!-- Body -->
+  <rect x="184" y="279" width="32" height="31" rx="9" fill="#6366F1"/>
+
+  <!-- Left arm reaching keyboard -->
+  <path d="M184,292 Q168,305 155,316" stroke="#6366F1" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right arm reaching keyboard -->
+  <path d="M216,292 Q232,305 245,316" stroke="#6366F1" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="272" r="14" fill="#FBBF24"/>
+  <!-- Hair -->
+  <path d="M186,267 Q190,254 200,257 Q210,254 214,267" fill="#111827"/>
+  <!-- Eyes (focused) -->
+  <ellipse cx="195" cy="271" rx="2.5" ry="2"   fill="#111827"/>
+  <ellipse cx="205" cy="271" rx="2.5" ry="2"   fill="#111827"/>
+  <circle  cx="196" cy="270" r="0.8" fill="white"/>
+  <circle  cx="206" cy="270" r="0.8" fill="white"/>
+
+  <!-- Floating network nodes LEFT -->
+  <circle cx="88"  cy="242" r="11" fill="#3730A3" opacity="0.85"/>
+  <circle cx="88"  cy="242" r="4.5" fill="#818CF8"/>
+  <circle cx="62"  cy="274" r="8"  fill="#312E81" opacity="0.75"/>
+  <circle cx="62"  cy="274" r="3"  fill="#6366F1"/>
+  <circle cx="108" cy="272" r="6"  fill="#3730A3" opacity="0.65"/>
+  <circle cx="108" cy="272" r="2.5" fill="#A5B4FC"/>
+  <line x1="88" y1="242" x2="62"  y2="274" stroke="#818CF8" stroke-width="1"   stroke-dasharray="3,2" opacity="0.6"/>
+  <line x1="88" y1="242" x2="108" y2="272" stroke="#818CF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Floating network nodes RIGHT -->
+  <circle cx="315" cy="238" r="11" fill="#3730A3" opacity="0.85"/>
+  <circle cx="315" cy="238" r="4.5" fill="#818CF8"/>
+  <circle cx="342" cy="268" r="8"  fill="#312E81" opacity="0.75"/>
+  <circle cx="342" cy="268" r="3"  fill="#6366F1"/>
+  <circle cx="295" cy="270" r="6"  fill="#3730A3" opacity="0.65"/>
+  <circle cx="295" cy="270" r="2.5" fill="#A5B4FC"/>
+  <line x1="315" y1="238" x2="342" y2="268" stroke="#818CF8" stroke-width="1"   stroke-dasharray="3,2" opacity="0.6"/>
+  <line x1="315" y1="238" x2="295" y2="270" stroke="#818CF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Lock icon floating top-left -->
+  <rect x="96" y="152" width="28" height="22" rx="5" fill="#4338CA"/>
+  <path d="M101,152 L101,144 Q110,137 119,144 L119,152" stroke="#818CF8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="110" cy="163" r="4" fill="#C7D2FE"/>
+  <rect   x="108" y="163" width="4" height="5" rx="1" fill="#C7D2FE"/>
+
+  <!-- Shield icon floating top-right -->
+  <path d="M282,148 Q282,165 290,172 Q298,165 298,148 Z" fill="#4338CA"/>
+  <path d="M284,152 Q284,164 290,169 Q296,164 296,152 Z" fill="#818CF8" opacity="0.5"/>
+  <path d="M286,158 L288,161 L294,155" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Binary particles -->
+  <text x="55"  y="220" font-size="8" font-family="monospace" fill="#4338CA" opacity="0.5">01</text>
+  <text x="332" y="210" font-size="8" font-family="monospace" fill="#4338CA" opacity="0.5">10</text>
+  <text x="312" y="192" font-size="7" font-family="monospace" fill="#3730A3" opacity="0.4">1101</text>
+  <text x="62"  cy="185" font-size="7" font-family="monospace" fill="#3730A3" opacity="0.4">0110</text>
+  <text x="62"  y="188" font-size="7" font-family="monospace" fill="#3730A3" opacity="0.4">0110</text>
+</svg>

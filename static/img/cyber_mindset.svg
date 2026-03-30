@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <clipPath id="c3"><circle cx="200" cy="200" r="182"/></clipPath>
+  </defs>
+
+  <!-- Background circle (light lavender-gray) -->
+  <circle cx="200" cy="200" r="182" fill="#ECEAF6"/>
+  <circle cx="200" cy="210" r="150" fill="#F0EEF8" opacity="0.5"/>
+
+  <!-- Desk surface -->
+  <rect x="18" y="295" width="364" height="89" fill="#D4D2E2" clip-path="url(#c3)"/>
+  <rect x="18" y="295" width="364" height="5"  fill="#C8C6D8" clip-path="url(#c3)"/>
+  <ellipse cx="200" cy="300" rx="155" ry="7" fill="#C2C0D5" opacity="0.4" clip-path="url(#c3)"/>
+
+  <!-- ── LEFT MONITOR ── -->
+  <!-- Stand -->
+  <rect x="96" y="283" width="8"  height="16" rx="2" fill="#6366F1" opacity="0.7"/>
+  <rect x="88" y="295" width="24" height="4"  rx="2" fill="#6366F1" opacity="0.5"/>
+  <!-- Monitor frame -->
+  <rect x="60" y="178" width="96" height="108" rx="8" fill="#312E81"/>
+  <rect x="64" y="182" width="88" height="96"  rx="5" fill="#0F1724"/>
+  <!-- Monitor screen content -->
+  <rect x="66" y="184" width="84" height="90" rx="4" fill="#0D1117"/>
+  <!-- Header bar -->
+  <rect x="66" y="184" width="84" height="12" rx="4" fill="#161B22"/>
+  <rect x="70" y="184" width="84" height="6"  fill="#161B22"/>
+  <circle cx="71" cy="190" r="2.5" fill="#EF4444" opacity="0.7"/>
+  <circle cx="78" cy="190" r="2.5" fill="#F59E0B" opacity="0.7"/>
+  <circle cx="85" cy="190" r="2.5" fill="#10B981" opacity="0.7"/>
+  <text x="108" y="192" font-size="4.5" font-family="sans-serif" fill="#8B949E" text-anchor="middle">vuln_scan.sh</text>
+  <!-- Code lines -->
+  <text x="70" y="203" font-size="4.5" font-family="monospace" fill="#FF7B72">import</text>
+  <text x="91" y="203" font-size="4.5" font-family="monospace" fill="#E6EDF3"> nmap</text>
+  <text x="70" y="211" font-size="4.5" font-family="monospace" fill="#79C0FF">def</text>
+  <text x="80" y="211" font-size="4.5" font-family="monospace" fill="#D2A8FF"> scan_target</text>
+  <text x="70" y="218" font-size="4.5" font-family="monospace" fill="#8B949E">  target = </text>
+  <text x="109" y="218" font-size="4.5" font-family="monospace" fill="#A5D6FF">"10.0.0.1"</text>
+  <text x="70" y="225" font-size="4.5" font-family="monospace" fill="#8B949E">  ports = </text>
+  <text x="107" y="225" font-size="4.5" font-family="monospace" fill="#A5D6FF">[22,80,443]</text>
+  <text x="70" y="232" font-size="4.5" font-family="monospace" fill="#79C0FF">  return</text>
+  <text x="92" y="232" font-size="4.5" font-family="monospace" fill="#E6EDF3"> results</text>
+  <!-- Alert / finding -->
+  <rect x="68" y="238" width="80" height="14" rx="3" fill="#1C2A1C"/>
+  <rect x="68" y="238" width="3"  height="14" rx="1" fill="#10B981"/>
+  <text x="74" y="246" font-size="4.5" font-family="sans-serif" fill="#10B981">✓ Port 22 open (ssh)</text>
+  <text x="74" y="253" font-size="4.5" font-family="sans-serif" fill="#10B981">  Banner: OpenSSH 8.2</text>
+  <!-- Warning finding -->
+  <rect x="68" y="255" width="80" height="12" rx="3" fill="#2A1C1C"/>
+  <rect x="68" y="255" width="3"  height="12" rx="1" fill="#EF4444"/>
+  <text x="74" y="263" font-size="4.5" font-family="sans-serif" fill="#EF4444">⚠ CVE-2023-4911 found</text>
+  <!-- Progress bar at bottom -->
+  <rect x="68" y="269" width="80" height="5" rx="2" fill="#161B22"/>
+  <rect x="68" y="269" width="58" height="5" rx="2" fill="#7C3AED" opacity="0.8"/>
+  <text x="108" y="268" font-size="4" font-family="sans-serif" fill="#8B949E" text-anchor="middle">Scanning 72%</text>
+
+  <!-- ── RIGHT MONITOR ── -->
+  <!-- Stand -->
+  <rect x="252" y="283" width="8"  height="16" rx="2" fill="#6366F1" opacity="0.7"/>
+  <rect x="244" y="295" width="24" height="4"  rx="2" fill="#6366F1" opacity="0.5"/>
+  <!-- Monitor frame -->
+  <rect x="216" y="165" width="120" height="122" rx="8" fill="#312E81"/>
+  <rect x="220" y="169" width="112" height="112" rx="5" fill="#0F1724"/>
+  <!-- Screen bg -->
+  <rect x="222" y="171" width="108" height="108" rx="4" fill="#0A0E1A"/>
+
+  <!-- Header tabs -->
+  <rect x="222" y="171" width="108" height="13" rx="4" fill="#111827"/>
+  <rect x="224" y="171" width="108" height="7"  fill="#111827"/>
+  <rect x="224" y="176" width="32" height="8"  rx="2" fill="#1F2937"/>
+  <text x="240" y="182" font-size="4.5" font-family="sans-serif" fill="#9CA3AF" text-anchor="middle">Dashboard</text>
+  <rect x="258" y="176" width="30" height="8"  rx="2" fill="#0F1724"/>
+  <text x="273" y="182" font-size="4.5" font-family="sans-serif" fill="#6B7280" text-anchor="middle">Threats</text>
+
+  <!-- Shield central graphic -->
+  <path d="M276,200 Q276,222 284,230 Q292,222 292,200 Z" fill="#4338CA" opacity="0.9"/>
+  <path d="M278,204 Q278,220 284,226 Q290,220 290,204 Z" fill="#6366F1" opacity="0.7"/>
+  <!-- Check in shield -->
+  <path d="M279,213 L282,217 L289,208" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Orbiting dots around shield -->
+  <circle cx="267" cy="205" r="3" fill="#818CF8" opacity="0.6"/>
+  <circle cx="271" cy="225" r="2.5" fill="#818CF8" opacity="0.5"/>
+  <circle cx="301" cy="207" r="3" fill="#818CF8" opacity="0.6"/>
+  <circle cx="297" cy="226" r="2.5" fill="#818CF8" opacity="0.5"/>
+  <circle cx="284" cy="196" r="2" fill="#A5B4FC" opacity="0.7"/>
+  <!-- Orbit arc -->
+  <ellipse cx="284" cy="215" rx="20" ry="22" fill="none" stroke="#4338CA" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.4"/>
+
+  <!-- Stat bars right panel -->
+  <text x="225" y="247" font-size="5" font-family="sans-serif" fill="#6B7280">Attack Surface</text>
+  <rect x="225" y="250" width="80" height="5" rx="2" fill="#1F2937"/>
+  <rect x="225" y="250" width="52" height="5" rx="2" fill="#EF4444" opacity="0.8"/>
+  <text x="310" y="255" font-size="4" font-family="sans-serif" fill="#EF4444">65%</text>
+
+  <text x="225" y="263" font-size="5" font-family="sans-serif" fill="#6B7280">Patch Coverage</text>
+  <rect x="225" y="266" width="80" height="5" rx="2" fill="#1F2937"/>
+  <rect x="225" y="266" width="68" height="5" rx="2" fill="#10B981" opacity="0.8"/>
+  <text x="310" y="271" font-size="4" font-family="sans-serif" fill="#10B981">85%</text>
+
+  <text x="225" y="279" font-size="5" font-family="sans-serif" fill="#6B7280">Threat Intel</text>
+  <rect x="225" y="282" width="80" height="5" rx="2" fill="#1F2937"/>
+  <rect x="225" y="282" width="38" height="5" rx="2" fill="#F59E0B" opacity="0.8"/>
+  <text x="310" y="287" font-size="4" font-family="sans-serif" fill="#F59E0B">47%</text>
+
+  <!-- ── CHARACTER ── -->
+  <!-- Chair back -->
+  <rect x="188" y="270" width="24" height="28" rx="6" fill="#4338CA" opacity="0.35"/>
+
+  <!-- Body -->
+  <rect x="186" y="278" width="28" height="26" rx="8" fill="#6366F1"/>
+  <!-- Collar detail -->
+  <path d="M196,278 L200,284 L204,278" stroke="#818CF8" stroke-width="1.5" fill="none"/>
+
+  <!-- Left arm reaching left monitor -->
+  <path d="M186,286 Q160,290 145,296" stroke="#6366F1" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- Right arm reaching right monitor -->
+  <path d="M214,286 Q240,290 255,296" stroke="#6366F1" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <!-- Legs -->
+  <rect x="189" y="302" width="9"  height="14" rx="4" fill="#3730A3"/>
+  <rect x="202" y="302" width="9"  height="14" rx="4" fill="#3730A3"/>
+  <!-- Shoes -->
+  <rect x="186" y="313" width="13" height="5"  rx="2.5" fill="#1E1B4B"/>
+  <rect x="201" y="313" width="13" height="5"  rx="2.5" fill="#1E1B4B"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="272" r="14" fill="#FBBF24"/>
+  <!-- Hair (short) -->
+  <path d="M186,268 Q190,256 200,258 Q210,256 214,268 Q210,260 200,261 Q190,260 186,268" fill="#1F2937"/>
+  <!-- Eyes (concentrated) -->
+  <ellipse cx="195" cy="271" rx="2.5" ry="2"   fill="#1F2937"/>
+  <ellipse cx="205" cy="271" rx="2.5" ry="2"   fill="#1F2937"/>
+  <circle  cx="196" cy="270" r="0.8" fill="white"/>
+  <circle  cx="206" cy="270" r="0.8" fill="white"/>
+  <!-- Eyebrows (focused) -->
+  <path d="M192,266 Q195,264 198,265" stroke="#1F2937" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M202,265 Q205,264 208,266" stroke="#1F2937" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- ── FLOATING ICONS / BADGES ── -->
+  <!-- Magnifying glass (top left) -->
+  <circle cx="88" cy="148" r="16" fill="white" opacity="0.9"/>
+  <circle cx="88" cy="148" r="16" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="86" cy="146" r="7.5" fill="none" stroke="#6366F1" stroke-width="2.5"/>
+  <line x1="91" y1="151" x2="96" y2="157" stroke="#6366F1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Mini crosshair inside -->
+  <line x1="82" y1="146" x2="90" y2="146" stroke="#818CF8" stroke-width="1" opacity="0.5"/>
+  <line x1="86" y1="142" x2="86" y2="150" stroke="#818CF8" stroke-width="1" opacity="0.5"/>
+
+  <!-- Bug / vulnerability badge (top center) -->
+  <circle cx="200" cy="138" r="16" fill="white" opacity="0.9"/>
+  <circle cx="200" cy="138" r="16" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="200" cy="137" r="6"  fill="#EF4444" opacity="0.9"/>
+  <!-- Antennae -->
+  <line x1="197" y1="131" x2="194" y2="127" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="203" y1="131" x2="206" y2="127" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="194" cy="126" r="2" fill="#EF4444"/>
+  <circle cx="206" cy="126" r="2" fill="#EF4444"/>
+  <!-- Bug legs -->
+  <line x1="194" y1="136" x2="190" y2="133" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="194" y1="139" x2="190" y2="139" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="206" y1="136" x2="210" y2="133" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="206" y1="139" x2="210" y2="139" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Lock badge (top right) -->
+  <circle cx="316" cy="150" r="16" fill="white" opacity="0.9"/>
+  <circle cx="316" cy="150" r="16" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="308" y="150" width="16" height="13" rx="3" fill="#F59E0B" opacity="0.9"/>
+  <path d="M311,150 L311,145 Q316,141 321,145 L321,150" stroke="#F59E0B" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="316" cy="156" r="2.5" fill="white"/>
+  <rect   x="315"  y="156" width="2.5" height="3.5" rx="1" fill="white"/>
+
+  <!-- React / tech icon (floating mid-right) -->
+  <circle cx="348" cy="218" r="13" fill="white" opacity="0.85"/>
+  <circle cx="348" cy="218" r="13" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="348" cy="218" r="3" fill="#61DAFB" opacity="0.9"/>
+  <ellipse cx="348" cy="218" rx="11" ry="5"  fill="none" stroke="#61DAFB" stroke-width="1.2" opacity="0.7"/>
+  <ellipse cx="348" cy="218" rx="11" ry="5"  fill="none" stroke="#61DAFB" stroke-width="1.2" opacity="0.7" transform="rotate(60 348 218)"/>
+  <ellipse cx="348" cy="218" rx="11" ry="5"  fill="none" stroke="#61DAFB" stroke-width="1.2" opacity="0.7" transform="rotate(120 348 218)"/>
+
+  <!-- Skill tags -->
+  <rect x="48" y="228" width="56" height="16" rx="8" fill="#EDE9FE"/>
+  <text x="76" y="239" font-size="5.5" font-family="sans-serif" fill="#4C1D95" text-anchor="middle">Penetration Test</text>
+
+  <rect x="296" y="268" width="56" height="16" rx="8" fill="#FEF3C7"/>
+  <text x="324" y="279" font-size="5.5" font-family="sans-serif" fill="#78350F" text-anchor="middle">Threat Modeling</text>
+
+  <rect x="46" y="258" width="60" height="16" rx="8" fill="#DCFCE7"/>
+  <text x="76" y="269" font-size="5.5" font-family="sans-serif" fill="#14532D" text-anchor="middle">Risk Assessment</text>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <clipPath id="c2"><circle cx="200" cy="200" r="182"/></clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="182" fill="#E8E8F0"/>
+
+  <!-- Soft inner glow area -->
+  <circle cx="200" cy="210" r="155" fill="#EEEEF8" opacity="0.6"/>
+
+  <!-- Desk surface -->
+  <rect x="18" y="295" width="364" height="89" rx="0" fill="#D1D0DC" clip-path="url(#c2)"/>
+  <rect x="18" y="295" width="364" height="6"  fill="#C4C3D0" clip-path="url(#c2)"/>
+
+  <!-- Desk shadow -->
+  <ellipse cx="200" cy="300" rx="148" ry="8" fill="#BBBAC8" opacity="0.5" clip-path="url(#c2)"/>
+
+  <!-- ── LAPTOP ── -->
+  <!-- Screen surround -->
+  <rect x="130" y="196" width="140" height="98" rx="8" fill="#2D3748"/>
+  <!-- Screen bezel -->
+  <rect x="134" y="200" width="132" height="88" rx="5" fill="#1A202C"/>
+  <!-- Screen content bg -->
+  <rect x="136" y="202" width="128" height="84" rx="4" fill="#0F1724"/>
+
+  <!-- Screen - window title bar -->
+  <rect x="136" y="202" width="128" height="14" rx="4" fill="#1E293B"/>
+  <rect x="144" y="202" width="128" height="8"  fill="#1E293B"/>
+  <circle cx="143" cy="209" r="3.5" fill="#EF4444" opacity="0.8"/>
+  <circle cx="153" cy="209" r="3.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="163" cy="209" r="3.5" fill="#10B981" opacity="0.8"/>
+  <text x="200" y="212" font-size="5" font-family="sans-serif" fill="#94A3B8" text-anchor="middle">notes.md — CyberSec Notes</text>
+
+  <!-- Screen - sidebar -->
+  <rect x="136" y="216" width="30" height="70" rx="0" fill="#131D2E"/>
+  <!-- Sidebar items -->
+  <rect x="139" y="221" width="22" height="6" rx="2" fill="#3B82F6" opacity="0.8"/>
+  <rect x="139" y="230" width="22" height="5" rx="2" fill="#1E3A5A" opacity="0.7"/>
+  <rect x="139" y="238" width="22" height="5" rx="2" fill="#1E3A5A" opacity="0.7"/>
+  <rect x="139" y="246" width="22" height="5" rx="2" fill="#1E3A5A" opacity="0.7"/>
+  <rect x="139" y="254" width="22" height="5" rx="2" fill="#1E3A5A" opacity="0.7"/>
+  <rect x="139" y="262" width="22" height="5" rx="2" fill="#1E3A5A" opacity="0.7"/>
+  <text x="150" y="225" font-size="4.5" font-family="sans-serif" fill="white" text-anchor="middle">Networking</text>
+  <text x="150" y="234" font-size="4.5" font-family="sans-serif" fill="#64748B" text-anchor="middle">Sys Security</text>
+  <text x="150" y="242" font-size="4.5" font-family="sans-serif" fill="#64748B" text-anchor="middle">Crypto</text>
+  <text x="150" y="250" font-size="4.5" font-family="sans-serif" fill="#64748B" text-anchor="middle">Web Attacks</text>
+  <text x="150" y="258" font-size="4.5" font-family="sans-serif" fill="#64748B" text-anchor="middle">Forensics</text>
+  <text x="150" y="266" font-size="4.5" font-family="sans-serif" fill="#64748B" text-anchor="middle">Tools</text>
+
+  <!-- Divider line -->
+  <line x1="166" y1="216" x2="166" y2="286" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Main content area -->
+  <text x="173" y="225" font-size="5.5" font-family="sans-serif" fill="#38BDF8" font-weight="bold">## OSI Model</text>
+  <text x="173" y="233" font-size="4.5" font-family="monospace" fill="#94A3B8">Layer 7 - Application</text>
+  <text x="173" y="240" font-size="4.5" font-family="monospace" fill="#94A3B8">Layer 4 - Transport</text>
+  <text x="173" y="247" font-size="4.5" font-family="monospace" fill="#94A3B8">Layer 3 - Network</text>
+  <text x="173" y="254" font-size="4.5" font-family="monospace" fill="#64748B">Layer 2 - Data Link</text>
+  <text x="173" y="261" font-size="4.5" font-family="monospace" fill="#64748B">Layer 1 - Physical</text>
+  <rect x="173" y="266" width="85" height="1" fill="#1E293B"/>
+  <text x="173" y="273" font-size="4.5" font-family="sans-serif" fill="#10B981">✓ TCP/IP suite notes</text>
+  <text x="173" y="280" font-size="4.5" font-family="sans-serif" fill="#10B981">✓ Subnetting practice</text>
+
+  <!-- Laptop hinge + base -->
+  <rect x="122" y="294" width="156" height="8" rx="4" fill="#4A5568"/>
+  <rect x="150" y="298" width="100" height="2" rx="1" fill="#2D3748"/>
+  <rect x="140" y="298" width="16"  height="3" rx="1.5" fill="#6B7280"/>
+
+  <!-- ── TREE (right side) ── -->
+  <!-- Trunk -->
+  <rect x="322" y="268" width="10" height="30" rx="3" fill="#8B6343"/>
+  <!-- Tree foliage layers -->
+  <ellipse cx="327" cy="258" rx="26" ry="20" fill="#16A34A"/>
+  <ellipse cx="327" cy="245" rx="20" ry="17" fill="#15803D"/>
+  <ellipse cx="327" cy="233" rx="14" ry="13" fill="#166534"/>
+  <!-- Small fruit/dot details -->
+  <circle cx="318" cy="252" r="3" fill="#EF4444" opacity="0.7"/>
+  <circle cx="335" cy="248" r="2.5" fill="#EF4444" opacity="0.6"/>
+  <circle cx="324" cy="240" r="2"   fill="#EF4444" opacity="0.5"/>
+
+  <!-- ── FLOATING TOPIC CARDS ── -->
+  <!-- Card 1: Networking (upper left) -->
+  <rect x="48" y="155" width="88" height="44" rx="8" fill="white" opacity="0.92"/>
+  <rect x="48" y="155" width="88" height="44" rx="8" fill="none" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="55" y="163" width="20" height="20" rx="5" fill="#DBEAFE"/>
+  <!-- Network icon -->
+  <circle cx="60" cy="170" r="3.5" fill="#3B82F6"/>
+  <circle cx="68" cy="166" r="2.5" fill="#93C5FD"/>
+  <circle cx="68" cy="174" r="2.5" fill="#93C5FD"/>
+  <line x1="63" y1="170" x2="66" y2="167" stroke="#3B82F6" stroke-width="1"/>
+  <line x1="63" y1="170" x2="66" y2="173" stroke="#3B82F6" stroke-width="1"/>
+  <text x="80"  y="170" font-size="6.5" font-family="sans-serif" fill="#1E3A8A" font-weight="bold">Networking</text>
+  <text x="80"  y="179" font-size="5"   font-family="sans-serif" fill="#64748B">TCP/IP · DNS</text>
+  <text x="55" y="191" font-size="5" font-family="sans-serif" fill="#94A3B8">12 notes · 4 labs</text>
+
+  <!-- Card 2: System Security (top center-right) -->
+  <rect x="250" y="140" width="96" height="44" rx="8" fill="white" opacity="0.92"/>
+  <rect x="250" y="140" width="96" height="44" rx="8" fill="none" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="257" y="148" width="20" height="20" rx="5" fill="#FEF3C7"/>
+  <!-- Shield icon -->
+  <path d="M262,151 Q267,149 272,151 L272,160 Q267,164 262,160 Z" fill="#F59E0B"/>
+  <path d="M264,155 L266,158 L270,153" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="282" y="155" font-size="6.5" font-family="sans-serif" fill="#78350F" font-weight="bold">Sys Security</text>
+  <text x="282" y="164" font-size="5"   font-family="sans-serif" fill="#64748B">Linux · Privesc</text>
+  <text x="257" y="177" font-size="5"   font-family="sans-serif" fill="#94A3B8">9 notes · 7 labs</text>
+
+  <!-- Card 3: Fundamentals (lower left floating) -->
+  <rect x="42" y="228" width="88" height="40" rx="8" fill="white" opacity="0.92"/>
+  <rect x="42" y="228" width="88" height="40" rx="8" fill="none" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="49" y="235" width="20" height="20" rx="5" fill="#D1FAE5"/>
+  <!-- Book icon -->
+  <rect x="52" y="238" width="14" height="12" rx="1" fill="#10B981"/>
+  <line x1="59" y1="238" x2="59" y2="250" stroke="white" stroke-width="1"/>
+  <rect x="52" y="240" width="6"  height="1.5" rx="0.5" fill="white" opacity="0.5"/>
+  <rect x="52" y="243" width="6"  height="1.5" rx="0.5" fill="white" opacity="0.5"/>
+  <text x="74" y="244" font-size="6.5" font-family="sans-serif" fill="#065F46" font-weight="bold">Fundamentals</text>
+  <text x="74" y="253" font-size="5"   font-family="sans-serif" fill="#64748B">CIA · AAA</text>
+  <text x="49" y="261" font-size="5"   font-family="sans-serif" fill="#94A3B8">15 notes</text>
+
+  <!-- Card 4: small Web Attacks (top center) -->
+  <rect x="160" y="135" width="80" height="36" rx="8" fill="white" opacity="0.88"/>
+  <rect x="160" y="135" width="80" height="36" rx="8" fill="none" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="167" y="142" width="18" height="18" rx="4" fill="#FCE7F3"/>
+  <!-- Bug icon -->
+  <circle cx="176" cy="150" r="4" fill="#EC4899"/>
+  <line x1="172" y1="146" x2="169" y2="143" stroke="#EC4899" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="180" y1="146" x2="183" y2="143" stroke="#EC4899" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="172" y1="152" x2="169" y2="155" stroke="#EC4899" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="180" y1="152" x2="183" y2="155" stroke="#EC4899" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="190" y="150" font-size="6" font-family="sans-serif" fill="#831843" font-weight="bold">Web Attacks</text>
+  <text x="190" y="159" font-size="5" font-family="sans-serif" fill="#64748B">SQLi · XSS</text>
+
+  <!-- Connecting dashed lines between cards and laptop -->
+  <line x1="136" y1="177" x2="130" y2="220" stroke="#CBD5E1" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="200" y1="171" x2="200" y2="196" stroke="#CBD5E1" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <line x1="264" y1="184" x2="258" y2="210" stroke="#CBD5E1" stroke-width="0.8" stroke-dasharray="3,2"/>
+
+  <!-- Progress dots decoration -->
+  <circle cx="200" cy="180" r="2.5" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="192" cy="183" r="2"   fill="#3B82F6" opacity="0.35"/>
+  <circle cx="208" cy="183" r="2"   fill="#3B82F6" opacity="0.35"/>
+
+  <!-- Pen/stylus decoration -->
+  <rect x="296" y="295" width="5" height="28" rx="2.5" fill="#4B5563" transform="rotate(-20 296 295)"/>
+  <polygon points="296,322 293,328 299,328" fill="#374151" transform="rotate(-20 296 295)"/>
+</svg>

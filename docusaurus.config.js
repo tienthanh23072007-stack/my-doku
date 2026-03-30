@@ -26,7 +26,7 @@ const config = {
   trailingSlash: false,
   organizationName: 'tienthanh23072007-stack',
   projectName: 'my-doku',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

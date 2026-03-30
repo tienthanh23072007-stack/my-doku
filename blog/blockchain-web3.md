@@ -1,9 +1,6 @@
 ---
 title: Blockchain & Web3 – Guide from Basics to Practice
 description: Explaining Blockchain, Web3, Smart Contracts, and Web3 Wallets in an Easy-to-Understand Way for Beginners
-date: 2024-03-30
-authors: [tienthanh]
-tags: [blockchain, web3, cryptocurrency]
 ---
 
 ## 📌 Introduction

@@ -61,7 +61,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo1.svg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -69,7 +69,7 @@ const config = {
         title: 'Tien Thanh Blog',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo1.svg',
         },
         items: [
           {

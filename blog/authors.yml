@@ -10,6 +10,12 @@ yangshun:
     github: yangshun
     newsletter: https://www.greatfrontend.com
 
+tienthanh:
+  name: Tien Thanh
+  title: Cybersecurity & IT Professional
+  url: https://github.com/tienthanh23072007-stack
+  image_url: https://github.com/tienthanh23072007-stack.png
+
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer

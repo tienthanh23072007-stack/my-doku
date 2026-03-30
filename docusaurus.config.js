@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tiến Thành',
-  tagline: 'Cybersecurity student & knowledge sharing',
+  title: 'IT Knowledge Hub',
+  tagline: 'Professional Cybersecurity & IT Solutions Documentation',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -66,7 +66,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Tiến Thành',
+        title: 'IT Knowledge Hub',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,11 +76,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'IT Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tienthanh23072007-stack',
             label: 'GitHub',
             position: 'right',
           },
@@ -89,7 +89,7 @@ const config = {
       footer: {
   style: 'dark',
   links: [],
-  copyright: `© ${new Date().getFullYear()} Tiến Thành. Built with Docusaurus.`,
+  copyright: `© ${new Date().getFullYear()} IT Knowledge Hub. Professional IT & Cybersecurity Documentation Platform.`,
 },
       prism: {
         theme: prismThemes.github,

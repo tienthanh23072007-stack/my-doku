@@ -1,4 +1,3 @@
-```md
 ---
 title: DevSecOps Explained for Beginners
 description: Learn DevSecOps from basics to lifecycle with real examples.
@@ -211,4 +210,4 @@ DevSecOps is not just a process —
 ---
 
 🔥 Start your DevSecOps journey today!
-```
+

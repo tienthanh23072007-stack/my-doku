@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Learn Cybersecurity by Doing',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/cyber_doing.svg').default,
     description: (
       <>
         This website documents my journey as an Information Security student.
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Structured & Practical Knowledge',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/cyber_knowledge.svg').default,
     description: (
       <>
         Notes are organized into clear topics like networking, system security, and cybersecurity fundamentals.
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Building a Security Mindset',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/cyber_mindset.svg').default,
     description: (
       <>
         Beyond tools, this site emphasizes thinking like a security professional:
@@ -60,7 +60,7 @@ export default function HomepageFeatures() {
           <p style={{maxWidth: '700px', margin: '0 auto'}}>
             Hi, I'm <strong>Mai Tien Thanh</strong>, an Information Security student passionate about 
             cybersecurity and systems. This site documents what I learn, explore, and build — 
-            from fundamentals to hands-on practice.
+            from fundamentals to hands-on practice
           </p>
         </div>
 

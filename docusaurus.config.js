@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IT Knowledge Hub',
+  title: "Tien Thanh's Blog",
   tagline: 'Professional Cybersecurity & IT Solutions Documentation',
   favicon: 'img/favicon.ico',
 
@@ -66,7 +66,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'IT Knowledge Hub',
+        title: 'Tien Thanh Blog',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -89,7 +89,7 @@ const config = {
       footer: {
   style: 'dark',
   links: [],
-  copyright: `© ${new Date().getFullYear()} IT Knowledge Hub. Professional IT & Cybersecurity Documentation Platform.`,
+  copyright: `© ${new Date().getFullYear()} Tien Thanh.`,
 },
       prism: {
         theme: prismThemes.github,

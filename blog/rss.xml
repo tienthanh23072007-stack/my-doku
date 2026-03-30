@@ -4,7 +4,7 @@
         <title>Tien Thanh's Blog Blog</title>
         <link>https://tienthanh23072007-stack.github.io/my-doku/blog</link>
         <description>Tien Thanh's Blog Blog</description>
-        <lastBuildDate>Mon, 30 Mar 2026 16:09:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Mar 2026 16:28:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[DevSecOps Explained for Beginners]]></title>
             <link>https://tienthanh23072007-stack.github.io/my-doku/blog/DevSecOps</link>
             <guid>https://tienthanh23072007-stack.github.io/my-doku/blog/DevSecOps</guid>
-            <pubDate>Mon, 30 Mar 2026 16:09:46 GMT</pubDate>
+            <pubDate>Mon, 30 Mar 2026 16:28:27 GMT</pubDate>
             <description><![CDATA[Learn DevSecOps from basics to lifecycle with real examples.]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p>🚀 A simple guide to understanding DevSecOps and why it matters</p>
@@ -192,6 +192,84 @@
 <p>🔥 Start your DevSecOps journey today!</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Blockchain & Web3 – Guide from Basics to Practice]]></title>
+            <link>https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3</link>
+            <guid>https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3</guid>
+            <pubDate>Mon, 30 Mar 2026 16:28:27 GMT</pubDate>
+            <description><![CDATA[Explaining Blockchain, Web3, Smart Contracts, and Web3 Wallets in an Easy-to-Understand Way for Beginners]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-introduction">📌 Introduction<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-introduction" class="hash-link" aria-label="Direct link to 📌 Introduction" title="Direct link to 📌 Introduction" translate="no">​</a></h2>
+<p>Blockchain and Web3 are core technologies of the new generation of the Internet.<br>
+<!-- -->If Web2 helps users <strong>interact and create content</strong>, then Web3 aims for a bigger goal:<br>
+<!-- -->👉 <strong>giving users ownership of data and digital assets</strong>.</p>
+<p>This article is designed for <strong>beginners</strong>, helping you:</p>
+<ul>
+<li class="">Understand what Blockchain is</li>
+<li class="">Understand how Web3 differs from Web2</li>
+<li class="">Know how Smart Contracts work</li>
+<li class="">Get an overview before diving deeper</li>
+</ul>
+<p>📊 <strong>Illustrative slide for the entire lesson:</strong><br>
+<!-- -->👉 <a href="https://www.canva.com/design/DAHAWicpH1w/pfiXZRFKgXGG2dhy8E4q_g/edit?utm_content=DAHAWicpH1w&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noopener noreferrer" class="">Blockchain &amp; Web3 – Canva</a></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1️⃣-what-is-blockchain">1️⃣ What is Blockchain?<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#1%EF%B8%8F%E2%83%A3-what-is-blockchain" class="hash-link" aria-label="Direct link to 1️⃣ What is Blockchain?" title="Direct link to 1️⃣ What is Blockchain?" translate="no">​</a></h2>
+<p>Blockchain (blockchain) is a <strong>distributed database</strong>, where data is:</p>
+<ul>
+<li class="">Recorded into <strong>Blocks</strong></li>
+<li class="">Blocks are <strong>linked together through encryption</strong></li>
+<li class="">Data that has been recorded cannot be modified</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-key-features-of-blockchain">🔗 Key Features of Blockchain<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-key-features-of-blockchain" class="hash-link" aria-label="Direct link to 🔗 Key Features of Blockchain" title="Direct link to 🔗 Key Features of Blockchain" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Decentralized</strong>: No central server</li>
+<li class=""><strong>Transparent</strong>: Anyone can verify transactions</li>
+<li class=""><strong>Immutable</strong>: Recorded data is almost impossible to delete</li>
+</ul>
+<p>📌 Example:</p>
+<blockquote>
+<p>When you transfer money on the blockchain, that transaction will be recorded permanently and everyone can check it.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2️⃣-basic-structure-of-blockchain--web3">2️⃣ Basic Structure of Blockchain &amp; Web3<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#2%EF%B8%8F%E2%83%A3-basic-structure-of-blockchain--web3" class="hash-link" aria-label="Direct link to 2️⃣ Basic Structure of Blockchain &amp; Web3" title="Direct link to 2️⃣ Basic Structure of Blockchain &amp; Web3" translate="no">​</a></h2>
+<p>A Web3 ecosystem usually consists of the following components:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-block">🔹 Block<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-block" class="hash-link" aria-label="Direct link to 🔹 Block" title="Direct link to 🔹 Block" translate="no">​</a></h3>
+<ul>
+<li class="">Contains transaction data</li>
+<li class="">Has a hash of the previous block</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hash">🔹 Hash<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-hash" class="hash-link" aria-label="Direct link to 🔹 Hash" title="Direct link to 🔹 Hash" translate="no">​</a></h3>
+<ul>
+<li class="">Is an encrypted string representing the data</li>
+<li class="">Changing just 1 character → hash changes completely</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-node">🔹 Node<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-node" class="hash-link" aria-label="Direct link to 🔹 Node" title="Direct link to 🔹 Node" translate="no">​</a></h3>
+<ul>
+<li class="">Computers participating in the blockchain network</li>
+<li class="">Each node stores a copy of the data</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wallet-web3-wallet">🔹 Wallet (Web3 Wallet)<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-wallet-web3-wallet" class="hash-link" aria-label="Direct link to 🔹 Wallet (Web3 Wallet)" title="Direct link to 🔹 Wallet (Web3 Wallet)" translate="no">​</a></h3>
+<ul>
+<li class="">Represents the <strong>digital identity</strong> of the user</li>
+<li class="">Stores private key</li>
+<li class="">Examples: MetaMask, Trust Wallet</li>
+</ul>
+<p>📊 <strong>Illustrative slide for the structure section:</strong><br>
+<!-- -->👉 <a href="https://www.canva.com/design/DAHAWicpH1w/pfiXZRFKgXGG2dhy8E4q_g/edit?utm_content=DAHAWicpH1w&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noopener noreferrer" class="">View on Canva</a></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3️⃣-what-is-a-smart-contract">3️⃣ What is a Smart Contract?<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#3%EF%B8%8F%E2%83%A3-what-is-a-smart-contract" class="hash-link" aria-label="Direct link to 3️⃣ What is a Smart Contract?" title="Direct link to 3️⃣ What is a Smart Contract?" translate="no">​</a></h2>
+<p>A Smart Contract is:</p>
+<blockquote>
+<p><strong>A program that runs automatically on the blockchain</strong>, without intermediaries.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-features">🧠 Features<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-features" class="hash-link" aria-label="Direct link to 🧠 Features" title="Direct link to 🧠 Features" translate="no">​</a></h3>
+<ul>
+<li class="">Automatically executes</li>
+<li class="">Cannot be edited after deployment</li>
+<li class="">Public &amp; transparent</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-simple-smart-contract-example-solidity">✍️ Simple Smart Contract Example (Solidity)<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#%EF%B8%8F-simple-smart-contract-example-solidity" class="hash-link" aria-label="Direct link to ✍️ Simple Smart Contract Example (Solidity)" title="Direct link to ✍️ Simple Smart Contract Example (Solidity)" translate="no">​</a></h3>
+<div class="language-solidity codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-solidity codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pragma solidity ^0.8.0;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">contract HelloWeb3 {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    function hello() public pure returns(string memory) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return "Hello Web3!";</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Guide to Creating a Blog with Docusaurus]]></title>
             <link>https://tienthanh23072007-stack.github.io/my-doku/blog/huong-dan-dung-blog</link>
             <guid>https://tienthanh23072007-stack.github.io/my-doku/blog/huong-dan-dung-blog</guid>
@@ -360,87 +438,6 @@ CPU Execution  <br></p>
             <category>jre</category>
             <category>jit</category>
             <category>execution-flow</category>
-        </item>
-        <item>
-            <title><![CDATA[Blockchain & Web3 – Guide from Basics to Practice]]></title>
-            <link>https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3</link>
-            <guid>https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3</guid>
-            <pubDate>Sat, 30 Mar 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Explaining Blockchain, Web3, Smart Contracts, and Web3 Wallets in an Easy-to-Understand Way for Beginners]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-introduction">📌 Introduction<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-introduction" class="hash-link" aria-label="Direct link to 📌 Introduction" title="Direct link to 📌 Introduction" translate="no">​</a></h2>
-<p>Blockchain and Web3 are core technologies of the new generation of the Internet.<br>
-<!-- -->If Web2 helps users <strong>interact and create content</strong>, then Web3 aims for a bigger goal:<br>
-<!-- -->👉 <strong>giving users ownership of data and digital assets</strong>.</p>
-<p>This article is designed for <strong>beginners</strong>, helping you:</p>
-<ul>
-<li class="">Understand what Blockchain is</li>
-<li class="">Understand how Web3 differs from Web2</li>
-<li class="">Know how Smart Contracts work</li>
-<li class="">Get an overview before diving deeper</li>
-</ul>
-<p>📊 <strong>Illustrative slide for the entire lesson:</strong><br>
-<!-- -->👉 <a href="https://www.canva.com/design/DAHAWicpH1w/pfiXZRFKgXGG2dhy8E4q_g/edit?utm_content=DAHAWicpH1w&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noopener noreferrer" class="">Blockchain &amp; Web3 – Canva</a></p>
-<hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1️⃣-what-is-blockchain">1️⃣ What is Blockchain?<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#1%EF%B8%8F%E2%83%A3-what-is-blockchain" class="hash-link" aria-label="Direct link to 1️⃣ What is Blockchain?" title="Direct link to 1️⃣ What is Blockchain?" translate="no">​</a></h2>
-<p>Blockchain (blockchain) is a <strong>distributed database</strong>, where data is:</p>
-<ul>
-<li class="">Recorded into <strong>Blocks</strong></li>
-<li class="">Blocks are <strong>linked together through encryption</strong></li>
-<li class="">Data that has been recorded cannot be modified</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-key-features-of-blockchain">🔗 Key Features of Blockchain<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-key-features-of-blockchain" class="hash-link" aria-label="Direct link to 🔗 Key Features of Blockchain" title="Direct link to 🔗 Key Features of Blockchain" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>Decentralized</strong>: No central server</li>
-<li class=""><strong>Transparent</strong>: Anyone can verify transactions</li>
-<li class=""><strong>Immutable</strong>: Recorded data is almost impossible to delete</li>
-</ul>
-<p>📌 Example:</p>
-<blockquote>
-<p>When you transfer money on the blockchain, that transaction will be recorded permanently and everyone can check it.</p>
-</blockquote>
-<hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2️⃣-basic-structure-of-blockchain--web3">2️⃣ Basic Structure of Blockchain &amp; Web3<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#2%EF%B8%8F%E2%83%A3-basic-structure-of-blockchain--web3" class="hash-link" aria-label="Direct link to 2️⃣ Basic Structure of Blockchain &amp; Web3" title="Direct link to 2️⃣ Basic Structure of Blockchain &amp; Web3" translate="no">​</a></h2>
-<p>A Web3 ecosystem usually consists of the following components:</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-block">🔹 Block<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-block" class="hash-link" aria-label="Direct link to 🔹 Block" title="Direct link to 🔹 Block" translate="no">​</a></h3>
-<ul>
-<li class="">Contains transaction data</li>
-<li class="">Has a hash of the previous block</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hash">🔹 Hash<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-hash" class="hash-link" aria-label="Direct link to 🔹 Hash" title="Direct link to 🔹 Hash" translate="no">​</a></h3>
-<ul>
-<li class="">Is an encrypted string representing the data</li>
-<li class="">Changing just 1 character → hash changes completely</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-node">🔹 Node<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-node" class="hash-link" aria-label="Direct link to 🔹 Node" title="Direct link to 🔹 Node" translate="no">​</a></h3>
-<ul>
-<li class="">Computers participating in the blockchain network</li>
-<li class="">Each node stores a copy of the data</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wallet-web3-wallet">🔹 Wallet (Web3 Wallet)<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-wallet-web3-wallet" class="hash-link" aria-label="Direct link to 🔹 Wallet (Web3 Wallet)" title="Direct link to 🔹 Wallet (Web3 Wallet)" translate="no">​</a></h3>
-<ul>
-<li class="">Represents the <strong>digital identity</strong> of the user</li>
-<li class="">Stores private key</li>
-<li class="">Examples: MetaMask, Trust Wallet</li>
-</ul>
-<p>📊 <strong>Illustrative slide for the structure section:</strong><br>
-<!-- -->👉 <a href="https://www.canva.com/design/DAHAWicpH1w/pfiXZRFKgXGG2dhy8E4q_g/edit?utm_content=DAHAWicpH1w&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noopener noreferrer" class="">View on Canva</a></p>
-<hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3️⃣-what-is-a-smart-contract">3️⃣ What is a Smart Contract?<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#3%EF%B8%8F%E2%83%A3-what-is-a-smart-contract" class="hash-link" aria-label="Direct link to 3️⃣ What is a Smart Contract?" title="Direct link to 3️⃣ What is a Smart Contract?" translate="no">​</a></h2>
-<p>A Smart Contract is:</p>
-<blockquote>
-<p><strong>A program that runs automatically on the blockchain</strong>, without intermediaries.</p>
-</blockquote>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-features">🧠 Features<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-features" class="hash-link" aria-label="Direct link to 🧠 Features" title="Direct link to 🧠 Features" translate="no">​</a></h3>
-<ul>
-<li class="">Automatically executes</li>
-<li class="">Cannot be edited after deployment</li>
-<li class="">Public &amp; transparent</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-simple-smart-contract-example-solidity">✍️ Simple Smart Contract Example (Solidity)<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#%EF%B8%8F-simple-smart-contract-example-solidity" class="hash-link" aria-label="Direct link to ✍️ Simple Smart Contract Example (Solidity)" title="Direct link to ✍️ Simple Smart Contract Example (Solidity)" translate="no">​</a></h3>
-<div class="language-solidity codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-solidity codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pragma solidity ^0.8.0;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">contract HelloWeb3 {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    function hello() public pure returns(string memory) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return "Hello Web3!";</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div>]]></content:encoded>
-            <category>blockchain</category>
-            <category>web3</category>
-            <category>cryptocurrency</category>
         </item>
     </channel>
 </rss>

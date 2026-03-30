@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Learn Cybersecurity by Doing',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This website documents my journey as an Information Security student.
+        I focus on hands-on learning — from networking basics to real-world security scenarios.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Structured & Practical Knowledge',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the docs directory.
+        Notes are organized into clear topics like networking, system security, and cybersecurity fundamentals.
+        Step by step, building a strong and practical foundation.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Building a Security Mindset',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Beyond tools, this site emphasizes thinking like a security professional:
+        analyzing systems, identifying vulnerabilities, and understanding attacks and defenses.
       </>
     ),
   },
@@ -53,11 +53,24 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+
+        {/* Intro Section */}
+        <div className="text--center margin-bottom--xl">
+          <Heading as="h2">Welcome to My Cybersecurity Journey</Heading>
+          <p style={{maxWidth: '700px', margin: '0 auto'}}>
+            Hi, I'm <strong>Mai Tien Thanh</strong>, an Information Security student passionate about 
+            cybersecurity and systems. This site documents what I learn, explore, and build — 
+            from fundamentals to hands-on practice.
+          </p>
+        </div>
+
+        {/* Features */}
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
+
       </div>
     </section>
   );

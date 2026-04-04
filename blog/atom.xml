@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tienthanh23072007-stack.github.io/my-doku/blog</id>
     <title>Tien Thanh's Blog Blog</title>
-    <updated>2026-03-30T16:38:53.000Z</updated>
+    <updated>2026-04-04T10:30:50.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tienthanh23072007-stack.github.io/my-doku/blog"/>
     <subtitle>Tien Thanh's Blog Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[DevSecOps Explained for Beginners]]></title>
         <id>https://tienthanh23072007-stack.github.io/my-doku/blog/DevSecOps</id>
         <link href="https://tienthanh23072007-stack.github.io/my-doku/blog/DevSecOps"/>
-        <updated>2026-03-30T16:38:53.000Z</updated>
+        <updated>2026-04-04T10:30:50.000Z</updated>
         <summary type="html"><![CDATA[Learn DevSecOps from basics to lifecycle with real examples.]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>🚀 A simple guide to understanding DevSecOps and why it matters</p>
@@ -194,7 +194,7 @@
         <title type="html"><![CDATA[Blockchain & Web3 – Guide from Basics to Practice]]></title>
         <id>https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3</id>
         <link href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3"/>
-        <updated>2026-03-30T16:38:53.000Z</updated>
+        <updated>2026-04-04T10:30:50.000Z</updated>
         <summary type="html"><![CDATA[Explaining Blockchain, Web3, Smart Contracts, and Web3 Wallets in an Easy-to-Understand Way for Beginners]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-introduction">📌 Introduction<a href="https://tienthanh23072007-stack.github.io/my-doku/blog/blockchain-web3#-introduction" class="hash-link" aria-label="Direct link to 📌 Introduction" title="Direct link to 📌 Introduction" translate="no">​</a></h2>
 <p>Blockchain and Web3 are core technologies of the new generation of the Internet.<br>
